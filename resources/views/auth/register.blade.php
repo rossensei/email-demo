@@ -39,6 +39,8 @@
                 <a href="/">Sign in to your account</a>
                 <button type="submit" class="btn btn-primary">Create</button>
             </div>
+
+            @method('POST')
         </form>
     </div>
 @endsection
